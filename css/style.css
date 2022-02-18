@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main, footer {
+    margin: 0 auto;
+}
+
+/* ---> Utility <--- */
+
+.blue {
+    background-color: rgb(81, 81, 255);
+}
+
+.orange {
+    background-color: rgb(250, 184, 61);
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+/* ---> Header <--- */
+
+header {
+    height: 150px;
+    width: 1000px;
+}
+
+.logo {
+    top: 0;
+    left: 5px;
+    height: 40px;
+    width: 150px;
+    margin: 5px;
+}
+
+.nav_tab {
+    height: 25px;
+    width: 700px;
+    margin: 5px;
+    bottom: 0;
+    left: 5px;
+}
