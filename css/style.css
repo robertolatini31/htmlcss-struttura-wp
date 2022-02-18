@@ -15,7 +15,15 @@ header, main, footer {
 }
 
 .orange {
-    background-color: rgb(250, 184, 61);
+    background-color: rgba(250, 184, 61, 0.7);
+}
+
+.green {
+    background-color: rgb(26, 158, 26);
+}
+
+.red {
+    background-color: rgba(252, 25, 25, 0.5);
 }
 
 .relative {
@@ -47,4 +55,30 @@ header {
     margin: 5px;
     bottom: 0;
     left: 5px;
+}
+
+/* ---> Main <--- */
+
+main {
+    height: 1000px;
+    width: 1000px;
+    margin-top: 1rem;
+}
+
+.bigimg {
+    height: 400px;
+    width: 100%;
+}
+
+.text_bigimg{
+    height: 100px;
+    width: 400px;
+    bottom: 20px;
+    left: 20px;
+}
+
+.section_title {
+    height: 100px;
+    width: 100%;
+    margin: 0.5rem 0;
 }
